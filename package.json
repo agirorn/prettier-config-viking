@@ -1,0 +1,16 @@
+{
+  "name": "prettier-config-viking",
+  "description": "Prettier config for Vikings",
+  "version": "0.0.0",
+  "main": ".prettierrc.json",
+  "repository": "https://github.com/agirorn/prettier-config-viking",
+  "author": "Ægir Örn Símonarson <agirorn@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "prettier --check .prettierrc.json",
+    "lint:fix": "prettier --write .prettierrc.json && yarn lint"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
+  }
+}
